@@ -1,0 +1,49 @@
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script>.daily-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.daily-controls select {
+  padding: 6px 28px 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.recommend-card {
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  background: #f8f9fa;
+  border: 1px solid #eee;
+  transition: all 0.2s ease;
+}
+
+.recommend-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+}
+
+.recommend-card .meta {
+  margin-top: 0.8rem;
+  font-size: 13px;
+  color: #888;
+}
+
+.recommend-card .tags {
+  margin-left: 10px;
+  color: #4a9eff;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 5rem 2rem;
+  color: #aaa;
+  font-size: 16px;
+}
