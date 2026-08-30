@@ -265,14 +265,4 @@ const btf = {
     })
   },
 
-  updateAnchor: (anchor) => {
-    if (anchor !== window.location.hash) {
-      if (!anchor) anchor = location.pathname
-      const title = GLOBAL_CONFIG_SITE.title
-      window.history.replaceState({
-        url: location.href,
-        title: title
-      }, title, anchor)
-    }
-  }
 }
