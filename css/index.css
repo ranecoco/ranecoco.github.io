@@ -1553,6 +1553,76 @@ blockquote footer cite:before {
 blockquote > :last-child {
   margin-bottom: 0 !important;
 }
+#article-container :not(.highlight) > table {
+  display: block;
+  width: auto;
+/* 支持 max-content 的浏览器按内容宽度撑开，不支持的回落到上面的 auto */
+  width: max-content;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+#article-container :not(.highlight) > table th,
+#article-container :not(.highlight) > table td {
+  white-space: nowrap;
+}
+.table-shadow-wrap {
+  position: relative;
+}
+.table-shadow-wrap::before,
+.table-shadow-wrap::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 24px;
+  z-index: 1;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.25s;
+  -moz-transition: opacity 0.25s;
+  -o-transition: opacity 0.25s;
+  -ms-transition: opacity 0.25s;
+  transition: opacity 0.25s;
+  pointer-events: none;
+}
+.table-shadow-wrap::before {
+  left: 0;
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0.18), rgba(0,0,0,0));
+  background: -moz-linear-gradient(left, rgba(0,0,0,0.18), rgba(0,0,0,0));
+  background: -o-linear-gradient(left, rgba(0,0,0,0.18), rgba(0,0,0,0));
+  background: -ms-linear-gradient(left, rgba(0,0,0,0.18), rgba(0,0,0,0));
+  background: linear-gradient(to right, rgba(0,0,0,0.18), rgba(0,0,0,0));
+}
+.table-shadow-wrap::after {
+  right: 0;
+  background: -webkit-linear-gradient(right, rgba(0,0,0,0.18), rgba(0,0,0,0));
+  background: -moz-linear-gradient(right, rgba(0,0,0,0.18), rgba(0,0,0,0));
+  background: -o-linear-gradient(right, rgba(0,0,0,0.18), rgba(0,0,0,0));
+  background: -ms-linear-gradient(right, rgba(0,0,0,0.18), rgba(0,0,0,0));
+  background: linear-gradient(to left, rgba(0,0,0,0.18), rgba(0,0,0,0));
+}
+.table-shadow-wrap.can-scroll-left::before,
+.table-shadow-wrap.can-scroll-right::after {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+[data-theme='dark'] .table-shadow-wrap::before {
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0.55), rgba(0,0,0,0));
+  background: -moz-linear-gradient(left, rgba(0,0,0,0.55), rgba(0,0,0,0));
+  background: -o-linear-gradient(left, rgba(0,0,0,0.55), rgba(0,0,0,0));
+  background: -ms-linear-gradient(left, rgba(0,0,0,0.55), rgba(0,0,0,0));
+  background: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0));
+}
+[data-theme='dark'] .table-shadow-wrap::after {
+  background: -webkit-linear-gradient(right, rgba(0,0,0,0.55), rgba(0,0,0,0));
+  background: -moz-linear-gradient(right, rgba(0,0,0,0.55), rgba(0,0,0,0));
+  background: -o-linear-gradient(right, rgba(0,0,0,0.55), rgba(0,0,0,0));
+  background: -ms-linear-gradient(right, rgba(0,0,0,0.55), rgba(0,0,0,0));
+  background: linear-gradient(to left, rgba(0,0,0,0.55), rgba(0,0,0,0));
+}
 :root {
   --hl-color: #eff;
   --hl-bg: #212121;
