@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>五险一金及个税计算器</title>
+<meta name="description" content="按个税申报单反推的社保/公积金/个税计算器，支持地区与公司预配置。所有计算在本地浏览器完成。">
+<style>
+  /* ---- 独立页面：自带 reset，不继承 Hexo 主题样式 ---- */
+  html, body, div, span, h1, h2, h3, p, table, thead, tbody, tr, th, td,
+  label, input, select, button, ul, li {
+    margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;
+  }
+  table { border-collapse: collapse; border-spacing: 0; }
+  ul { list-style: none; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+                 "Hiragino Sans GB", "Microsoft YaHei", Roboto, Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+    line-height: 1.6;
+    padding: 24px 16px 56px;
+  }
+  * { box-sizing: border-box; }
+
+  .sc-wrap { max-width: 900px; margin: 0 auto; }
+
+  .sc-topbar {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 12px; margin-bottom: 14px; font-size: 13px; color: #64748b;
+  }
+  .sc-topbar a { color: #4f46e5; text-decoration: none; }
+  .sc-topbar a:hover { text-decoration: underline; }
+
+  .sc-card {
+    background: #fff; border: 1px solid #e2e8f0; border-radius: 14px;
+    padding: 18px 20px; margin-bottom: 16px;
+  }
+
+  .sc-hero {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: #fff; border-radius: 14px; padding: 22px 20px; margin-bottom: 16px; text-align: center;
+  }
+  .sc-hero h1 { font-size: 20px; font-weight: 700; margin-bottom: 6px; }
+  .sc-hero p { font-size: 12px; opacity: .85; }
+
+  .sc-title {
+    font-size: 14px; font-weight: 700; color: #1e3c72;
+    margin-bottom: 12px; padding-bottom: 6px; border-bottom: 2px solid #e8ecf4;
+    display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  }
+
+  .sc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 16px; }
+  @media (max-width: 640px) { .sc-grid { grid-template-columns: 1fr; } }
+
+  .sc-field { display: flex; flex-direction: column; gap: 4px; }
+  .sc-field label { font-size: 12px; font-weight: 600; color: #475569; }
+  .sc-field .hint { font-size: 11px; color: #94a3b8; }
+  .sc-field input, .sc-field select {
+    padding: 8px 10px; border: 1.5px solid #d1d5db; border-radius: 6px;
+    font-size: 13px; background: #fff; color: #1e293b; width: 100%;
+    font-family: inherit;
+  }
+  .sc-field input:focus, .sc-field select:focus { outline: none; border-color: #4f46e5; }
+  .sc-field input[type="number"] { text-align: right; }
+  .sc-field.is-preset input, .sc-field.is-preset select { background: #f5f3ff; border-color: #c7d2fe; }
+
+  .sc-btn {
+    display: inline-block; padding: 9px 18px; border: none; border-radius: 8px;
+    font-size: 13px; font-weight: 700; cursor: pointer; font-family: inherit;
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); color: #fff;
+  }
+  .sc-btn:active { transform: scale(.97); }
+  .sc-btn.ghost { background: #e0e7ff; color: #3730a3; }
+  .sc-btn-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+
+  .sc-result-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  @media (max-width: 640px) { .sc-result-grid { grid-template-columns: 1fr; } }
+  .sc-result {
+    background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 12px 14px;
+  }
+  .sc-result .k { font-size: 11px; color: #64748b; margin-bottom: 2px; }
+  .sc-result .v { font-size: 17px; font-weight: 700; color: #1e293b; }
+  .sc-result.highlight { background: #ecfdf5; border-color: #6ee7b7; }
+  .sc-result.highlight .v { color: #047857; }
+  .sc-result.important { background: #fffbeb; border-color: #fbbf24; }
+  .sc-result.important .v { color: #92400e; }
+  .sc-result.danger { background: #fef2f2; border-color: #f87171; }
+  .sc-result.danger .v { color: #991b1b; }
+
+  table.sc-table { width: 100%; font-size: 12px; background: #fff; }
+  table.sc-table th {
+    background: #1e3c72; color: #fff; padding: 8px 10px; text-align: left; font-weight: 600;
+  }
+  table.sc-table td { padding: 7px 10px; border-bottom: 1px solid #e2e8f0; }
+  table.sc-table tr:nth-child(even) td { background: #f8fafc; }
+  table.sc-table td:last-child { text-align: right; font-weight: 600; }
+  table.sc-table tr.total td { font-weight: 700; background: #e8ecf4 !important; }
+  table.sc-table tr.note td { background: #eff6ff !important; font-weight: 700; }
+  table.sc-table.warn td { background: #fef3c7 !important; }
+
+  .sc-notice {
+    background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px 14px;
+    border-radius: 0 8px 8px 0; font-size: 12px; color: #1e40af; line-height: 1.8;
+  }
+  .sc-formula {
+    background: #f8fafc; border: 1px dashed #cbd5e1; border-radius: 8px;
+    padding: 10px 14px; font-size: 12px; color: #475569; line-height: 1.9;
+  }
+  .sc-ok { color: #047857; font-weight: 700; }
+  .sc-muted { font-size: 11px; color: #94a3b8; }
+</style>
+</head>
+<body>
+<div class="sc-wrap">
+
+  <div class="sc-topbar">
+    <span>ChinaCareer · 工具</span>
+    <a href="/">← 返回首页</a>
+  </div>
+
+  <div class="sc-hero">
+    <h1>五险一金及个税计算器</h1>
+    <p id="heroMeta">请选择地区与公司</p>
+  </div>
+
+  <!-- ============ 预配置 ============ -->
+  <div class="sc-card">
+    <div class="sc-title">⚙️ 预配置（地区 / 公司）</div>
+    <div class="sc-grid">
+      <div class="sc-field">
+        <label for="regionSel">地区</label>
+        <select id="regionSel"></select>
+        <div class="hint">选择后自动带出当地基数上下限</div>
+      </div>
+      <div class="sc-field">
+        <label for="companySel">公司</label>
+        <select id="companySel"></select>
+        <div class="hint">选择后自动带出该公司实际缴费基数与公积金比例</div>
+      </div>
+    </div>
+    <div class="sc-formula" id="presetInfo" style="margin-top:12px;">—</div>
+  </div>
+
+  <!-- ============ 计算器 ============ -->
+  <div class="sc-card">
+    <div class="sc-title">📥 输入参数</div>
+    <div class="sc-grid">
+      <div class="sc-field" id="fSalary">
+        <label for="salary">税前月工资（元）</label>
+        <input type="number" id="salary" value="10000" min="0" step="100">
+      </div>
+      <div class="sc-field" id="fSocialBase">
+        <label for="socialBase">社保缴费基数（元）</label>
+        <input type="number" id="socialBase" value="7546" step="1">
+        <div class="hint">通常为上年度月平均工资，低于下限按下限</div>
+      </div>
+      <div class="sc-field" id="fFundBase">
+        <label for="fundBase">公积金缴费基数（元）</label>
+        <input type="number" id="fundBase" value="2740" step="1">
+      </div>
+      <div class="sc-field" id="fFundRate">
+        <label for="fundRate">公积金缴存比例</label>
+        <select id="fundRate">
+          <option value="5" selected>5%</option>
+          <option value="6">6%</option>
+          <option value="7">7%</option>
+        </select>
+      </div>
+      <div class="sc-field"><label for="rent">住房租金（元/月）</label><input type="number" id="rent" value="0" min="0" step="100"><div class="hint">上海 1500，与房贷二选一</div></div>
+      <div class="sc-field"><label for="elderly">赡养老人（元/月）</label><input type="number" id="elderly" value="0" min="0" step="100"><div class="hint">独生子女 3000</div></div>
+      <div class="sc-field"><label for="children">子女教育（元/月）</label><input type="number" id="children" value="0" min="0" step="100"><div class="hint">每个子女 2000</div></div>
+      <div class="sc-field"><label for="education">继续教育（元/月）</label><input type="number" id="education" value="0" min="0" step="100"></div>
+      <div class="sc-field"><label for="mortgage">住房贷款利息（元/月）</label><input type="number" id="mortgage" value="0" min="0" step="100"><div class="hint">1000，与租金二选一</div></div>
+      <div class="sc-field"><label for="otherDeduct">其他扣除（元/月）</label><input type="number" id="otherDeduct" value="0" min="0" step="100"><div class="hint">商业健康险、税延养老等</div></div>
+    </div>
+    <div class="sc-btn-row">
+      <button class="sc-btn" id="btnCalc">🔄 计算</button>
+    </div>
+  </div>
+
+  <div class="sc-card">
+    <div class="sc-title">🎯 最终到手</div>
+    <div class="sc-result-grid">
+      <div class="sc-result important"><div class="k">💰 实发工资（到手）</div><div class="v" id="takeHome">0.00</div></div>
+      <div class="sc-result danger"><div class="k">个人五险一金 + 个税扣除合计</div><div class="v" id="personalTotal">0.00</div></div>
+    </div>
+  </div>
+
+  <div class="sc-card">
+    <div class="sc-title">📊 社会保险（个人缴纳部分）</div>
+    <table class="sc-table">
+      <thead><tr><th>险种</th><th>比例</th><th>金额（元）</th></tr></thead>
+      <tbody>
+        <tr class="note"><td colspan="2">实际社保缴费基数</td><td id="actualSocialBase">0.00</td></tr>
+        <tr><td>养老保险</td><td id="rPension">8%</td><td id="pension">0.00</td></tr>
+        <tr><td>医疗保险</td><td id="rMedical">2%</td><td id="medical">0.00</td></tr>
+        <tr><td>失业保险</td><td id="rUnemployment">0.5%</td><td id="unemployment">0.00</td></tr>
+        <tr class="total"><td colspan="2">社保个人合计</td><td id="socialTotal">0.00</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="sc-card">
+    <div class="sc-title">🏠 住房公积金</div>
+    <div class="sc-result-grid">
+      <div class="sc-result"><div class="k">个人缴纳</div><div class="v" id="fundPersonal">0.00</div></div>
+      <div class="sc-result"><div class="k">单位缴纳</div><div class="v" id="fundCompany">0.00</div></div>
+      <div class="sc-result highlight"><div class="k">每月入账公积金账户</div><div class="v" id="fundAccount">0.00</div></div>
+      <div class="sc-result"><div class="k">缴存比例</div><div class="v" id="fundRateDisplay">5%</div></div>
+    </div>
+  </div>
+
+  <div class="sc-card">
+    <div class="sc-title">💰 个人所得税</div>
+    <table class="sc-table">
+      <tbody>
+        <tr><td>本期收入</td><td id="taxIncome">0.00</td></tr>
+        <tr><td>减：基本减除费用</td><td>5,000.00</td></tr>
+        <tr><td>减：专项扣除（社保个人部分）</td><td id="taxSocial">0.00</td></tr>
+        <tr><td>减：专项扣除（公积金个人部分）</td><td id="taxFund">0.00</td></tr>
+        <tr><td>减：专项附加扣除合计</td><td id="taxDeduction">0.00</td></tr>
+        <tr class="note"><td>应纳税所得额</td><td id="taxableIncome">0.00</td></tr>
+        <tr><td>适用税率</td><td id="taxRate">0%</td></tr>
+        <tr><td>速算扣除数</td><td id="taxQuick">0.00</td></tr>
+        <tr class="total"><td>本期应申报税额</td><td id="taxAmount">0.00</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="sc-card">
+    <div class="sc-title">🏢 单位用工成本</div>
+    <table class="sc-table">
+      <tbody>
+        <tr><td>单位养老保险（<span id="rCompPension">16%</span>）</td><td id="compPension">0.00</td></tr>
+        <tr><td>单位医疗+生育（<span id="rCompMedical">9%</span>）</td><td id="compMedical">0.00</td></tr>
+        <tr><td>单位失业保险（<span id="rCompUnemployment">0.5%</span>）</td><td id="compUnemployment">0.00</td></tr>
+        <tr><td>单位工伤保险（约 <span id="rCompInjury">0.5%</span> 估算）</td><td id="compInjury">0.00</td></tr>
+        <tr><td>单位公积金</td><td id="compFund">0.00</td></tr>
+        <tr class="total"><td>单位五险一金合计</td><td id="compTotal">0.00</td></tr>
+        <tr class="warn"><td>📊 单位总用工成本</td><td id="compCost">0.00</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="sc-card">
+    <div class="sc-title">🧮 计算逻辑（由申报单反推得出）</div>
+    <div class="sc-formula">
+      <strong>社保基数</strong> = 上年度月平均工资，夹在 [下限, 上限] 区间内<br>
+      <strong>社保个人合计</strong> = 基数 × 10.5%（养老 8% + 医疗 2% + 失业 0.5%），各项四舍五入到分<br>
+      <strong>公积金个人</strong> = 公积金基数 × 比例（5%~7%），单位同额<br>
+      <strong>应纳税所得额</strong> = MAX(本期收入 − 5000 − 社保个人 − 公积金个人 − 专项附加扣除 − 其他扣除, 0)<br>
+      <strong>本期申报税额</strong> = 应纳税所得额 × 税率 − 速算扣除数（月度预扣预缴，四舍五入到分）<br>
+      <strong>到手工资</strong> = 本期收入 − 社保个人 − 公积金个人 − 个税
+    </div>
+  </div>
+
+  <div class="sc-card">
+    <div class="sc-title">📈 个税税率表（月度）</div>
+    <table class="sc-table">
+      <thead><tr><th>应纳税所得额</th><th>税率</th><th>速算扣除数</th></tr></thead>
+      <tbody>
+        <tr><td>不超过 3,000 元</td><td>3%</td><td>0</td></tr>
+        <tr><td>3,000 ~ 12,000 元</td><td>10%</td><td>210</td></tr>
+        <tr><td>12,000 ~ 25,000 元</td><td>20%</td><td>1,410</td></tr>
+        <tr><td>25,000 ~ 35,000 元</td><td>25%</td><td>2,660</td></tr>
+        <tr><td>35,000 ~ 55,000 元</td><td>30%</td><td>4,410</td></tr>
+        <tr><td>55,000 ~ 80,000 元</td><td>35%</td><td>7,160</td></tr>
+        <tr><td>超过 80,000 元</td><td>45%</td><td>15,160</td></tr>
+      </tbody>
+    </table>
+    <div class="sc-notice" style="margin-top:12px;">
+      1. 数据全部在浏览器本地计算，不上传任何服务器。<br>
+      2. 个税为月度预扣预缴口径，年度汇算清缴时多退少补；换工作、年终奖等会导致月度数字波动。<br>
+      3. 工伤保险比例随行业浮动（0.2%~1.9%），此处按 0.5% 估算。<br>
+      4. 未纳入：年终奖单独计税、股权激励、劳务报酬、免税收入等特殊情况。
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ---------------- 基础工具 ---------------- */
+  function round2(n) { return Math.round((n + Number.EPSILON) * 100) / 100; }
+  function money(n) {
+    return round2(n).toLocaleString('zh-CN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  }
+  function txt(id, v) { var el = document.getElementById(id); if (el) el.textContent = v; }
+
+  /* ---------------- 月度税率表 ---------------- */
+  var BRACKETS = [
+    { upTo: 3000,  rate: 0.03, quick: 0,     label: '3%' },
+    { upTo: 12000, rate: 0.10, quick: 210,   label: '10%' },
+    { upTo: 25000, rate: 0.20, quick: 1410,  label: '20%' },
+    { upTo: 35000, rate: 0.25, quick: 2660,  label: '25%' },
+    { upTo: 55000, rate: 0.30, quick: 4410,  label: '30%' },
+    { upTo: 80000, rate: 0.35, quick: 7160,  label: '35%' },
+    { upTo: Infinity, rate: 0.45, quick: 15160, label: '45%' }
+  ];
+  function taxBracket(income) {
+    for (var i = 0; i < BRACKETS.length; i++) {
+      if (income <= BRACKETS[i].upTo) return BRACKETS[i];
+    }
+    return BRACKETS[BRACKETS.length - 1];
+  }
+
+  /* ---------------- 地区 / 公司预配置 ----------------
+     下面每一组数字都是用真实个税申报单反推出来的，不是照抄通用公式。
+     上海臻潮 2026 申报单（收入 6000 / 税额 2.12）反推过程：
+       养老 603.68 ÷ 8%  = 7546  → 社保基数按下限 7546 缴
+       医疗 150.92 ÷ 2%  = 7546  （交叉验证一致）
+       失业 37.73  ÷ 0.5% = 7546 （交叉验证一致）
+       公积金 137.00 ÷ 5% = 2740 → 公积金基数 2740、比例 5%
+       验算 (6000 - 5000 - 929.33) × 3% = 2.12 = 申报税额 ✔
+     新增公司时照抄一份、把申报单数字代进去即可。
+  ---------------------------------------------------- */
+  var REGIONS = [
+    {
+      id: 'sh-2026',
+      city: '上海',
+      period: '2026-07 ~ 2027-06',
+      socialMin: 7546, socialMax: 37731,
+      fundMin: 2740, fundMax: 37731,
+      fundRateOptions: [5, 6, 7],
+      // 个人缴纳比例
+      pension: 0.08, medical: 0.02, unemployment: 0.005,
+      // 单位缴纳比例
+      compPension: 0.16, compMedical: 0.09, compUnemployment: 0.005, compInjury: 0.005,
+      verified: true,
+      companies: [
+        {
+          id: 'sh-zhenchao',
+          name: '上海臻潮互联网信息服务有限公司',
+          taxNo: '91310105MA1FWJU187',
+          bureau: '国家税务总局上海市长宁区税务局',
+          // 反推结果：基数与比例直接用于下方计算器
+          socialBase: 7546,
+          fundBase: 2740,
+          fundRate: 5,
+          verified: true
+        },
+        { id: 'sh-other', name: '上海 · 其他公司（按地区默认）', socialBase: 7546, fundBase: 2740, fundRate: 7, verified: false },
+        { id: 'sh-custom', name: '自定义（手动填写基数）', socialBase: null, fundBase: null, fundRate: 7, verified: false }
+      ]
+    },
+    {
+      id: 'custom',
+      city: '自定义地区',
+      period: '手动填写',
+      socialMin: 0, socialMax: 999999,
+      fundMin: 0, fundMax: 999999,
+      fundRateOptions: [5, 6, 7, 8, 12],
+      pension: 0.08, medical: 0.02, unemployment: 0.005,
+      compPension: 0.16, compMedical: 0.09, compUnemployment: 0.005, compInjury: 0.005,
+      verified: false,
+      companies: [{ id: 'custom-co', name: '自定义（手动填写基数）', socialBase: null, fundBase: null, fundRate: 7, verified: false }]
+    }
+  ];
+
+  var state = { region: REGIONS[0], company: REGIONS[0].companies[0] };
+
+  // 公司可覆写地区比例，否则沿用地区默认
+  function rates() {
+    var r = state.region, c = state.company, out = {};
+    ['pension', 'medical', 'unemployment', 'compPension', 'compMedical', 'compUnemployment', 'compInjury']
+      .forEach(function (k) { out[k] = (c[k] !== undefined ? c[k] : r[k]); });
+    return out;
+  }
+  function pct(v) { return (v * 100).toFixed(1).replace(/\.0$/, '') + '%'; }
+
+  /* ---------------- 预配置渲染 ---------------- */
+  function renderRegions() {
+    var sel = document.getElementById('regionSel');
+    sel.innerHTML = '';
+    REGIONS.forEach(function (r) {
+      var o = document.createElement('option');
+      o.value = r.id;
+      o.textContent = r.city + '（' + r.period + '）' + (r.verified ? ' ✔ 已核对' : '');
+      sel.appendChild(o);
+    });
+    sel.value = state.region.id;
+    renderCompanies();
+  }
+
+  function renderCompanies() {
+    var sel = document.getElementById('companySel');
+    sel.innerHTML = '';
+    state.region.companies.forEach(function (c) {
+      var o = document.createElement('option');
+      o.value = c.id;
+      o.textContent = c.name + (c.verified ? ' ✔' : '');
+      sel.appendChild(o);
+    });
+    sel.value = state.company.id;
+    renderFundRateOptions();
+    applyPreset();
+  }
+
+  function renderFundRateOptions() {
+    var sel = document.getElementById('fundRate');
+    var keep = sel.value;
+    sel.innerHTML = '';
+    state.region.fundRateOptions.forEach(function (r) {
+      var o = document.createElement('option');
+      o.value = String(r);
+      o.textContent = r + '%';
+      sel.appendChild(o);
+    });
+    if (state.region.fundRateOptions.indexOf(Number(keep)) > -1) sel.value = keep;
+  }
+
+  function markPreset(fields, on) {
+    fields.forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) el.classList.toggle('is-preset', !!on);
+    });
+  }
+
+  function applyPreset() {
+    var r = state.region, c = state.company;
+    var auto = c.socialBase !== null;
+
+    if (c.socialBase !== null) document.getElementById('socialBase').value = c.socialBase;
+    if (c.fundBase !== null) document.getElementById('fundBase').value = c.fundBase;
+    if (c.fundRate) document.getElementById('fundRate').value = String(c.fundRate);
+
+    markPreset(['fSocialBase', 'fFundBase', 'fFundRate'], auto);
+
+    var k = rates();
+    var info = document.getElementById('presetInfo');
+    var lines = [
+      '<strong>地区：</strong>' + r.city + '（' + r.period + '）',
+      '<strong>公司：</strong>' + c.name,
+      '<strong>社保基数：</strong>' + money(r.socialMin) + ' ~ ' + money(r.socialMax) +
+        '（个人：养老 ' + pct(k.pension) + ' + 医疗 ' + pct(k.medical) + ' + 失业 ' + pct(k.unemployment) + '）',
+      '<strong>公积金基数：</strong>' + money(r.fundMin) + ' ~ ' + money(r.fundMax) +
+        '（比例 ' + r.fundRateOptions.join('/') + '%，本次按 ' + document.getElementById('fundRate').value + '%）'
+    ];
+    if (c.taxNo) lines.push('<strong>纳税人识别号：</strong>' + c.taxNo);
+    if (c.bureau) lines.push('<strong>主管税务机关：</strong>' + c.bureau);
+    if (c.verified) {
+      lines.push('<span class="sc-ok">✔ 该组基数与比例由个税申报单反推得出，计算结果与申报税额一致</span>');
+    } else {
+      lines.push('<span class="sc-muted">未按申报单核对，为地区通用默认值</span>');
+    }
+    info.innerHTML = lines.join('<br>');
+
+    document.getElementById('heroMeta').textContent =
+      r.city + ' · ' + r.period + ' | 社保基数 ' + r.socialMin + '~' + r.socialMax +
+      ' | 公积金基数 ' + r.fundMin + '~' + r.fundMax + ' | 比例 ' + r.fundRateOptions.join('/') + '%';
+
+    calc();
+  }
+
+  /* ---------------- 主计算 ---------------- */
+  function calc() {
+    var r = state.region;
+    var salary      = parseFloat(document.getElementById('salary').value) || 0;
+    var socialBase  = parseFloat(document.getElementById('socialBase').value) || 0;
+    var fundBase    = parseFloat(document.getElementById('fundBase').value) || 0;
+    var fundRate    = parseFloat(document.getElementById('fundRate').value) || 5;
+    var rent        = parseFloat(document.getElementById('rent').value) || 0;
+    var elderly     = parseFloat(document.getElementById('elderly').value) || 0;
+    var children    = parseFloat(document.getElementById('children').value) || 0;
+    var education   = parseFloat(document.getElementById('education').value) || 0;
+    var mortgage    = parseFloat(document.getElementById('mortgage').value) || 0;
+    var otherDeduct = parseFloat(document.getElementById('otherDeduct').value) || 0;
+
+    // 基数夹取到地区上下限
+    socialBase = Math.min(Math.max(socialBase, r.socialMin), r.socialMax);
+    fundBase   = Math.min(Math.max(fundBase, r.fundMin), r.fundMax);
+
+    // 社保个人（比例取自地区/公司配置；各项四舍五入到分，与申报单一致）
+    var k = rates();
+    var pension      = round2(socialBase * k.pension);
+    var medical      = round2(socialBase * k.medical);
+    var unemployment = round2(socialBase * k.unemployment);
+    var socialTotal  = round2(pension + medical + unemployment);
+
+    // 公积金
+    var fundPersonal = round2(fundBase * (fundRate / 100));
+    var fundCompany  = fundPersonal;
+    var fundAccount  = round2(fundPersonal + fundCompany);
+
+    // 个税
+    var deductionTotal = rent + elderly + children + education + mortgage + otherDeduct;
+    var taxableIncome  = Math.max(round2(salary - 5000 - socialTotal - fundPersonal - deductionTotal), 0);
+    var br = taxBracket(taxableIncome);
+    var taxAmount = taxableIncome <= 0 ? 0 : Math.max(round2(taxableIncome * br.rate - br.quick), 0);
+
+    var takeHome      = round2(salary - socialTotal - fundPersonal - taxAmount);
+    var personalTotal = round2(socialTotal + fundPersonal + taxAmount);
+
+    // 单位侧
+    var compPension      = round2(socialBase * k.compPension);
+    var compMedical      = round2(socialBase * k.compMedical);
+    var compUnemployment = round2(socialBase * k.compUnemployment);
+    var compInjury       = round2(socialBase * k.compInjury);
+    var compFund         = fundCompany;
+    var compTotal        = round2(compPension + compMedical + compUnemployment + compInjury + compFund);
+    var compCost         = round2(salary + compTotal);
+
+    txt('rPension', pct(k.pension));
+    txt('rMedical', pct(k.medical));
+    txt('rUnemployment', pct(k.unemployment));
+    txt('rCompPension', pct(k.compPension));
+    txt('rCompMedical', pct(k.compMedical));
+    txt('rCompUnemployment', pct(k.compUnemployment));
+    txt('rCompInjury', pct(k.compInjury));
+
+    txt('actualSocialBase', money(socialBase));
+    txt('pension', money(pension));
+    txt('medical', money(medical));
+    txt('unemployment', money(unemployment));
+    txt('socialTotal', money(socialTotal));
+    txt('fundPersonal', money(fundPersonal));
+    txt('fundCompany', money(fundCompany));
+    txt('fundAccount', money(fundAccount));
+    txt('fundRateDisplay', fundRate + '%');
+    txt('taxIncome', money(salary));
+    txt('taxSocial', money(socialTotal));
+    txt('taxFund', money(fundPersonal));
+    txt('taxDeduction', money(deductionTotal));
+    txt('taxableIncome', money(taxableIncome));
+    txt('taxRate', br.label);
+    txt('taxQuick', money(br.quick));
+    txt('taxAmount', money(taxAmount));
+    txt('takeHome', money(takeHome));
+    txt('personalTotal', money(personalTotal));
+    txt('compPension', money(compPension));
+    txt('compMedical', money(compMedical));
+    txt('compUnemployment', money(compUnemployment));
+    txt('compInjury', money(compInjury));
+    txt('compFund', money(compFund));
+    txt('compTotal', money(compTotal));
+    txt('compCost', money(compCost));
+
+    return { taxAmount: taxAmount, taxableIncome: taxableIncome };
+  }
+
+  /* ---------------- 事件绑定 ---------------- */
+  document.getElementById('regionSel').addEventListener('change', function () {
+    var id = this.value;
+    state.region = REGIONS.filter(function (r) { return r.id === id; })[0] || REGIONS[0];
+    state.company = state.region.companies[0];
+    renderCompanies();
+  });
+
+  document.getElementById('companySel').addEventListener('change', function () {
+    var id = this.value;
+    state.company = state.region.companies.filter(function (c) { return c.id === id; })[0] || state.region.companies[0];
+    applyPreset();
+  });
+
+  document.getElementById('btnCalc').addEventListener('click', calc);
+
+  document.querySelectorAll('.sc-field input, .sc-field select').forEach(function (el) {
+    if (el.id === 'regionSel' || el.id === 'companySel') return; // 预配置下拉有自己的处理逻辑
+    el.addEventListener('input', calc);
+    el.addEventListener('change', calc);
+  });
+
+  /* ---------------- 初始化 ---------------- */
+  renderRegions();
+})();
+</script>
+</body>
+</html>
