@@ -66,14 +66,28 @@
   .sc-field input[type="number"] { text-align: right; }
   .sc-field.is-preset input, .sc-field.is-preset select { background: #f5f3ff; border-color: #c7d2fe; }
 
-  .sc-btn {
-    display: inline-block; padding: 9px 18px; border: none; border-radius: 8px;
-    font-size: 13px; font-weight: 700; cursor: pointer; font-family: inherit;
-    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); color: #fff;
+  .sc-link {
+    color: #4f46e5; text-decoration: none; cursor: pointer; font-weight: 600;
+    background: none; border: none; padding: 0; font-family: inherit; font-size: 11px;
   }
-  .sc-btn:active { transform: scale(.97); }
-  .sc-btn.ghost { background: #e0e7ff; color: #3730a3; }
-  .sc-btn-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+  .sc-link:hover { text-decoration: underline; }
+  .sc-link[hidden] { display: none; }
+
+  /* ---- 可折叠区块 ---- */
+  .sc-collapsible {
+    margin-top: 14px; border: 1px solid #e2e8f0; border-radius: 10px; overflow: hidden;
+  }
+  .sc-toggle {
+    width: 100%; display: flex; align-items: center; justify-content: space-between;
+    gap: 8px; padding: 10px 14px; background: #f8fafc; border: none;
+    font-size: 13px; font-weight: 700; color: #1e3c72; cursor: pointer; font-family: inherit;
+  }
+  .sc-toggle:hover { background: #f1f5f9; }
+  .sc-toggle .caret { display: inline-block; transition: transform .18s ease; }
+  .sc-toggle[aria-expanded="true"] .caret { transform: rotate(180deg); }
+  .sc-toggle-meta { font-size: 11px; font-weight: 600; color: #64748b; }
+  .sc-toggle-body { padding: 14px; border-top: 1px solid #e2e8f0; }
+  .sc-toggle-body[hidden] { display: none; }
 
   .sc-result-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
   @media (max-width: 640px) { .sc-result-grid { grid-template-columns: 1fr; } }
@@ -116,7 +130,7 @@
 <div class="sc-wrap">
 
   <div class="sc-topbar">
-    <span>ChinaCareer · 工具</span>
+    <span>🧮 薪资工具</span>
     <a href="/">← 返回首页</a>
   </div>
 
@@ -154,7 +168,7 @@
       <div class="sc-field" id="fSocialBase">
         <label for="socialBase">社保缴费基数（元）</label>
         <input type="number" id="socialBase" value="7546" step="1">
-        <div class="hint">通常为上年度月平均工资，低于下限按下限</div>
+        <div class="hint"><span id="socialBaseHint">自动跟随税前工资，并按地区上下限夹取</span> <button type="button" class="sc-link" id="socialBaseSync" hidden>↻ 恢复跟随工资</button></div>
       </div>
       <div class="sc-field" id="fFundBase">
         <label for="fundBase">公积金缴费基数（元）</label>
@@ -168,15 +182,23 @@
           <option value="7">7%</option>
         </select>
       </div>
-      <div class="sc-field"><label for="rent">住房租金（元/月）</label><input type="number" id="rent" value="0" min="0" step="100"><div class="hint">上海 1500，与房贷二选一</div></div>
-      <div class="sc-field"><label for="elderly">赡养老人（元/月）</label><input type="number" id="elderly" value="0" min="0" step="100"><div class="hint">独生子女 3000</div></div>
-      <div class="sc-field"><label for="children">子女教育（元/月）</label><input type="number" id="children" value="0" min="0" step="100"><div class="hint">每个子女 2000</div></div>
-      <div class="sc-field"><label for="education">继续教育（元/月）</label><input type="number" id="education" value="0" min="0" step="100"></div>
-      <div class="sc-field"><label for="mortgage">住房贷款利息（元/月）</label><input type="number" id="mortgage" value="0" min="0" step="100"><div class="hint">1000，与租金二选一</div></div>
-      <div class="sc-field"><label for="otherDeduct">其他扣除（元/月）</label><input type="number" id="otherDeduct" value="0" min="0" step="100"><div class="hint">商业健康险、税延养老等</div></div>
     </div>
-    <div class="sc-btn-row">
-      <button class="sc-btn" id="btnCalc">🔄 计算</button>
+
+    <div class="sc-collapsible">
+      <button type="button" class="sc-toggle" id="deductionToggle" aria-expanded="false" aria-controls="deductionBody">
+        <span>🎁 专项附加扣除 &amp; 其他扣除</span>
+        <span class="sc-toggle-meta"><span id="deductionSummary">未填写</span> <span class="caret">▾</span></span>
+      </button>
+      <div class="sc-toggle-body" id="deductionBody" hidden>
+        <div class="sc-grid">
+          <div class="sc-field"><label for="rent">住房租金（元/月）</label><input type="number" id="rent" value="0" min="0" step="100"><div class="hint">上海 1500，与房贷二选一</div></div>
+          <div class="sc-field"><label for="elderly">赡养老人（元/月）</label><input type="number" id="elderly" value="0" min="0" step="100"><div class="hint">独生子女 3000</div></div>
+          <div class="sc-field"><label for="children">子女教育（元/月）</label><input type="number" id="children" value="0" min="0" step="100"><div class="hint">每个子女 2000</div></div>
+          <div class="sc-field"><label for="education">继续教育（元/月）</label><input type="number" id="education" value="0" min="0" step="100"><div class="hint">学历 400 / 职业资格 300</div></div>
+          <div class="sc-field"><label for="mortgage">住房贷款利息（元/月）</label><input type="number" id="mortgage" value="0" min="0" step="100"><div class="hint">1000，与租金二选一</div></div>
+          <div class="sc-field"><label for="otherDeduct">其他扣除（元/月）</label><input type="number" id="otherDeduct" value="0" min="0" step="100"><div class="hint">商业健康险、税延养老等</div></div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -247,7 +269,7 @@
   <div class="sc-card">
     <div class="sc-title">🧮 计算逻辑（由申报单反推得出）</div>
     <div class="sc-formula">
-      <strong>社保基数</strong> = 上年度月平均工资，夹在 [下限, 上限] 区间内<br>
+      <strong>社保基数</strong> = 默认跟随税前工资，夹在 [下限, 上限] 区间内；手动改过基数后不再跟随<br>
       <strong>社保个人合计</strong> = 基数 × 10.5%（养老 8% + 医疗 2% + 失业 0.5%），各项四舍五入到分<br>
       <strong>公积金个人</strong> = 公积金基数 × 比例（5%~7%），单位同额<br>
       <strong>应纳税所得额</strong> = MAX(本期收入 − 5000 − 社保个人 − 公积金个人 − 专项附加扣除 − 其他扣除, 0)<br>
@@ -308,16 +330,6 @@
     return BRACKETS[BRACKETS.length - 1];
   }
 
-  /* ---------------- 地区 / 公司预配置 ----------------
-     下面每一组数字都是用真实个税申报单反推出来的，不是照抄通用公式。
-     上海臻潮 2026 申报单（收入 6000 / 税额 2.12）反推过程：
-       养老 603.68 ÷ 8%  = 7546  → 社保基数按下限 7546 缴
-       医疗 150.92 ÷ 2%  = 7546  （交叉验证一致）
-       失业 37.73  ÷ 0.5% = 7546 （交叉验证一致）
-       公积金 137.00 ÷ 5% = 2740 → 公积金基数 2740、比例 5%
-       验算 (6000 - 5000 - 929.33) × 3% = 2.12 = 申报税额 ✔
-     新增公司时照抄一份、把申报单数字代进去即可。
-  ---------------------------------------------------- */
   var REGIONS = [
     {
       id: 'sh-2026',
@@ -334,8 +346,8 @@
       companies: [
         {
           id: 'sh-zhenchao',
-          name: '上海臻潮互联网信息服务有限公司',
-          taxNo: '91310105MA1FWJU187',
+          name: '上海zc',
+          // taxNo: '',
           bureau: '国家税务总局上海市长宁区税务局',
           // 反推结果：基数与比例直接用于下方计算器
           socialBase: 7546,
@@ -428,7 +440,7 @@
     if (c.fundBase !== null) document.getElementById('fundBase').value = c.fundBase;
     if (c.fundRate) document.getElementById('fundRate').value = String(c.fundRate);
 
-    markPreset(['fSocialBase', 'fFundBase', 'fFundRate'], auto);
+    markPreset(['fFundBase', 'fFundRate'], auto);
 
     var k = rates();
     var info = document.getElementById('presetInfo');
@@ -449,11 +461,40 @@
     }
     info.innerHTML = lines.join('<br>');
 
+    syncSocialBaseFromSalary();
+
     document.getElementById('heroMeta').textContent =
       r.city + ' · ' + r.period + ' | 社保基数 ' + r.socialMin + '~' + r.socialMax +
       ' | 公积金基数 ' + r.fundMin + '~' + r.fundMax + ' | 比例 ' + r.fundRateOptions.join('/') + '%';
 
     calc();
+  }
+
+  /* ---------------- 社保基数跟随工资 ----------------
+     默认：社保基数 = 税前工资，再夹取到 [下限, 上限]。
+     一旦手动改过社保基数就锁定为手动值，点「恢复跟随工资」再切回自动。
+     公积金基数不跟随（不少公司按低于工资的基数缴，属于公司自主选择）。
+  ---------------------------------------------------- */
+  var socialBaseAuto = true;
+
+  function syncSocialBaseFromSalary() {
+    if (!socialBaseAuto) return;
+    var r = state.region;
+    var salary = parseFloat(document.getElementById('salary').value) || 0;
+    var base = Math.min(Math.max(salary, r.socialMin), r.socialMax);
+    document.getElementById('socialBase').value = String(Math.round(base));
+  }
+
+  function setSocialBaseAuto(on) {
+    socialBaseAuto = !!on;
+    var field = document.getElementById('fSocialBase');
+    if (field) field.classList.toggle('is-preset', socialBaseAuto);
+    txt('socialBaseHint', socialBaseAuto
+      ? '自动跟随税前工资，并按地区上下限夹取'
+      : '已手动指定，不再跟随工资变化');
+    var btn = document.getElementById('socialBaseSync');
+    if (btn) btn.hidden = socialBaseAuto;
+    if (socialBaseAuto) syncSocialBaseFromSalary();
   }
 
   /* ---------------- 主计算 ---------------- */
@@ -488,6 +529,9 @@
 
     // 个税
     var deductionTotal = rent + elderly + children + education + mortgage + otherDeduct;
+    txt('deductionSummary', deductionTotal > 0
+      ? '合计 ' + money(deductionTotal) + ' 元/月'
+      : '未填写（0 元）');
     var taxableIncome  = Math.max(round2(salary - 5000 - socialTotal - fundPersonal - deductionTotal), 0);
     var br = taxBracket(taxableIncome);
     var taxAmount = taxableIncome <= 0 ? 0 : Math.max(round2(taxableIncome * br.rate - br.quick), 0);
@@ -556,15 +600,43 @@
     applyPreset();
   });
 
-  document.getElementById('btnCalc').addEventListener('click', calc);
+  // 工资：改工资 → 先同步社保基数再算
+  document.getElementById('salary').addEventListener('input', function () {
+    syncSocialBaseFromSalary();
+    calc();
+  });
+
+  // 手动改社保基数 → 退出自动跟随
+  ['input', 'change'].forEach(function (evt) {
+    document.getElementById('socialBase').addEventListener(evt, function () {
+      setSocialBaseAuto(false);
+      calc();
+    });
+  });
+
+  document.getElementById('socialBaseSync').addEventListener('click', function () {
+    setSocialBaseAuto(true);
+    calc();
+  });
+
+  // 折叠：专项附加扣除
+  var dedToggle = document.getElementById('deductionToggle');
+  var dedBody = document.getElementById('deductionBody');
+  dedToggle.addEventListener('click', function () {
+    var open = dedToggle.getAttribute('aria-expanded') === 'true';
+    dedToggle.setAttribute('aria-expanded', open ? 'false' : 'true');
+    dedBody.hidden = open;
+  });
 
   document.querySelectorAll('.sc-field input, .sc-field select').forEach(function (el) {
-    if (el.id === 'regionSel' || el.id === 'companySel') return; // 预配置下拉有自己的处理逻辑
+    // 预配置下拉、工资、社保基数都有自己的处理逻辑
+    if (el.id === 'regionSel' || el.id === 'companySel' || el.id === 'salary' || el.id === 'socialBase') return;
     el.addEventListener('input', calc);
     el.addEventListener('change', calc);
   });
 
   /* ---------------- 初始化 ---------------- */
+  setSocialBaseAuto(true);
   renderRegions();
 })();
 </script>
