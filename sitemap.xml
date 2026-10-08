@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://ceobe33.github.io/project/link/index.html</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/tags/index.html</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -29,16 +20,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/daily/index.html</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/gallery/index.html</loc>
+    <loc>https://ceobe33.github.io/project/link/index.html</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -57,6 +39,24 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/categories/index.html</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/daily/index.html</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/gallery/index.html</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -101,6 +101,15 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/2bcaeb79c343/159eccabcaad/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/2bcaeb79c343/568f1a04763f/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -119,15 +128,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/2bcaeb79c343/225cf5c3114b/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/2bcaeb79c343/6debc8b5e789/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/2bcaeb79c343/159eccabcaad/</loc>
+    <loc>https://ceobe33.github.io/project/posts/2bcaeb79c343/225cf5c3114b/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -191,7 +191,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/1fa6fe43fe39/</loc>
+    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/88a6b631129c/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -200,7 +200,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/88a6b631129c/</loc>
+    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/1fa6fe43fe39/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -218,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/179263ab3450/</loc>
+    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/84e00a5da6d7/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -227,7 +227,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/84e00a5da6d7/</loc>
+    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/179263ab3450/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -308,15 +308,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/11fd3042f07d/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/185446762eba/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -326,7 +317,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/67142bd6872a/</loc>
+    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/11fd3042f07d/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -335,7 +326,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/9f1e2ad547cd/</loc>
+    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/67142bd6872a/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -362,15 +353,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/55e606d1688e/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/5f877fa9f1c7/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -380,7 +362,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/2f1106ad6d33/</loc>
+    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/55e606d1688e/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -389,7 +371,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/0a8d6e7d41f1/</loc>
+    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/2f1106ad6d33/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -524,6 +506,24 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/9f1e2ad547cd/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/0a8d6e7d41f1/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/c8f1634a89da/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -560,6 +560,15 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/f6831dffb25f/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/a7527f56723e/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -570,15 +579,6 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/805e96558ef7/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/f6831dffb25f/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -605,7 +605,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/1021f069b6a0/</loc>
+    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/78adff8227d0/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -614,7 +614,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/78adff8227d0/</loc>
+    <loc>https://ceobe33.github.io/project/posts/e90067bc07e2/1021f069b6a0/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -695,15 +695,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/4a0612b61ab1/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/cc7dc787965f/b188f653bbd8/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -713,7 +704,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/8aa918c9e564/</loc>
+    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/62763f75952c/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -740,7 +731,16 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/62763f75952c/</loc>
+    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/8aa918c9e564/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/4a0612b61ab1/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -785,15 +785,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/78db2b51189c/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/d15dcaf8eb9e/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -803,7 +794,52 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/78db2b51189c/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/01991c9cca19/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/ae29d1d73d8c/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/1a6ff0f5a8eb/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/bba3358f1fa7/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/ce5288691a8f/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -866,6 +902,15 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/ed0e4e42eed0/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/391bb07eeb0b/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -885,15 +930,6 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/d7f7c37862f3/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/ed0e4e42eed0/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -938,7 +974,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/d9ca2875f2d0/</loc>
+    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/14973fb20ee2/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -947,7 +983,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/14973fb20ee2/</loc>
+    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/d9ca2875f2d0/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -965,42 +1001,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/01991c9cca19/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/ae29d1d73d8c/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/1a6ff0f5a8eb/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/ce5288691a8f/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/edc53c801fa9/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -1010,7 +1010,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/604812fdc167/</loc>
+    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/d64ecc126391/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1028,7 +1028,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/d64ecc126391/</loc>
+    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/604812fdc167/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1056,15 +1056,6 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/437d6424dc8d/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/458f8d6aadf2/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1181,7 +1172,25 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/f37f2c0c1152/458f8d6aadf2/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/0cc230b6b13a/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/36f7212628e4/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1199,7 +1208,70 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/36f7212628e4/</loc>
+    <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/b7f1335a0766/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/e660ec6aae53/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/753fe3af6da2/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/3716ed79b6a9/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/d2831c26fd9f/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/ae88e3ef5844/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/507e827bbf9f/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/d62c5cfd598f/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1298,78 +1370,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/b7f1335a0766/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/e660ec6aae53/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/753fe3af6da2/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/3716ed79b6a9/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/d2831c26fd9f/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/ae88e3ef5844/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/507e827bbf9f/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/d62c5cfd598f/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/dd28dcf6d8b9/8012b49669c7/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -1424,7 +1424,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/ebb2ddc72903/a226ce57d0d4/</loc>
+    <loc>https://ceobe33.github.io/project/posts/ebb2ddc72903/42a303bc9c94/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1433,7 +1433,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/ebb2ddc72903/42a303bc9c94/</loc>
+    <loc>https://ceobe33.github.io/project/posts/ebb2ddc72903/a226ce57d0d4/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1505,15 +1505,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/ebb2ddc72903/e9a8b9e4b2ff/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/ebb2ddc72903/d78c9a0fef59/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -1523,7 +1514,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/ebb2ddc72903/86be621d5c7a/</loc>
+    <loc>https://ceobe33.github.io/project/posts/ebb2ddc72903/e9a8b9e4b2ff/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1560,6 +1551,15 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/posts/ebb2ddc72903/079ba5a6eb4e/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/ebb2ddc72903/86be621d5c7a/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1667,7 +1667,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/ebb2ddc72903/c6d9199e69e5/</loc>
+    <loc>https://ceobe33.github.io/project/posts/ebb2ddc72903/1d3eec7766b6/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1676,7 +1676,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/ebb2ddc72903/1d3eec7766b6/</loc>
+    <loc>https://ceobe33.github.io/project/posts/ebb2ddc72903/c6d9199e69e5/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1703,6 +1703,15 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/ebb2ddc72903/85e8ffe630e2/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/fa9b6d59fe76/da9f07181daa/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -1721,7 +1730,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/fa9b6d59fe76/ae1c452ca023/</loc>
+    <loc>https://ceobe33.github.io/project/posts/fa9b6d59fe76/09bc9879f21a/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1730,7 +1739,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/fa9b6d59fe76/09bc9879f21a/</loc>
+    <loc>https://ceobe33.github.io/project/posts/fa9b6d59fe76/ae1c452ca023/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1802,15 +1811,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/ebb2ddc72903/85e8ffe630e2/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/b22ef15acea7/b20f818a966b/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -1865,15 +1865,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/b22ef15acea7/a3121c620b3c/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/b22ef15acea7/b4f67d52bff9/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -1883,7 +1874,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/b22ef15acea7/a1239a3d00f8/</loc>
+    <loc>https://ceobe33.github.io/project/posts/b22ef15acea7/a3121c620b3c/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1892,7 +1883,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/d59e86dec191/ecd74010e550/</loc>
+    <loc>https://ceobe33.github.io/project/posts/b22ef15acea7/a1239a3d00f8/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1973,7 +1964,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/d59e86dec191/0928994f085a/</loc>
+    <loc>https://ceobe33.github.io/project/posts/d59e86dec191/ecd74010e550/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2000,7 +1991,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/d59e86dec191/3898672effd4/</loc>
+    <loc>https://ceobe33.github.io/project/posts/d59e86dec191/0928994f085a/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2010,6 +2001,15 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/posts/d59e86dec191/6dc041327160/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/d59e86dec191/3898672effd4/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2063,6 +2063,15 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/d59e86dec191/2259f2780286/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/d59e86dec191/49c72efde85f/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -2072,7 +2081,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/d59e86dec191/2259f2780286/</loc>
+    <loc>https://ceobe33.github.io/project/posts/10832b93bde0/5299cb8bcdff/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2207,7 +2216,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/10832b93bde0/5725d41a69aa/</loc>
+    <loc>https://ceobe33.github.io/project/posts/10832b93bde0/fd8145ecc3f6/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2216,7 +2225,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/10832b93bde0/fd8145ecc3f6/</loc>
+    <loc>https://ceobe33.github.io/project/posts/10832b93bde0/5725d41a69aa/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2234,7 +2243,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/10832b93bde0/5299cb8bcdff/</loc>
+    <loc>https://ceobe33.github.io/project/posts/d4a564764146/6838d89aaab1/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2243,7 +2252,52 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/d4a564764146/6838d89aaab1/</loc>
+    <loc>https://ceobe33.github.io/project/posts/d4a564764146/950b59c2c1ea/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/d4a564764146/d51e9b07e793/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/d4a564764146/e68e2118e2f1/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/d4a564764146/6a57d6161bfa/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/d4a564764146/d3cedc2d890b/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/d4a564764146/8ee889e1e628/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2261,7 +2315,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/d4a564764146/e07f1cf35d34/</loc>
+    <loc>https://ceobe33.github.io/project/posts/d4a564764146/e2447e3ba800/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2270,7 +2324,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/d4a564764146/e2447e3ba800/</loc>
+    <loc>https://ceobe33.github.io/project/posts/d4a564764146/e07f1cf35d34/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2289,6 +2343,24 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/posts/d4a564764146/23ebe542120d/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/d4a564764146/f33546d3822e/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/d4a564764146/5dc0d5b99524/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2333,15 +2405,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/d4a564764146/249757e075b0/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/d4a564764146/12a6483eae46/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -2351,7 +2414,25 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/d4a564764146/249757e075b0/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/d4a564764146/2941edd2f699/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/d4a564764146/cf7752f118ee/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2370,6 +2451,24 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/posts/d4a564764146/e33c0de0f418/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/799b332dca32/71a642535931/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/799b332dca32/c91c4437bf34/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2405,6 +2504,15 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/799b332dca32/35f9354f6084/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/799b332dca32/9547ef842774/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -2414,7 +2522,52 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/799b332dca32/3c515cfd9468/</loc>
+    <loc>https://ceobe33.github.io/project/posts/799b332dca32/a38f8a30ec81/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/799b332dca32/cf964430ad36/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/799b332dca32/ede6fd46017e/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/799b332dca32/8003624548d7/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/799b332dca32/ed03e7cddf9c/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/799b332dca32/6d85ee95ccc2/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2424,6 +2577,42 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/posts/799b332dca32/8260e495ddca/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/799b332dca32/cd5cb68ec4b6/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/799b332dca32/4813146d1d42/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/799b332dca32/25211cf59925/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/799b332dca32/3c515cfd9468/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2522,6 +2711,24 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/799b332dca32/7694c09aa719/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/7d571634705e/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/d599fe7993f0/e273c6ceb732/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -2531,34 +2738,25 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/55383a5e7dbc/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/fb2c8f55883d/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/82dc370483e9/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/487b061c9adc/d9b58492e04d/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/628a1c8d5af2/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/8a4f1b2d25af/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2594,6 +2792,33 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/55383a5e7dbc/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/fb2c8f55883d/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/82dc370483e9/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/487b061c9adc/72664d2a04ce/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -2612,6 +2837,15 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/0d4b6af17d59/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/487b061c9adc/96424a79f663/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -2621,7 +2855,16 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/0d4b6af17d59/</loc>
+    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/ecc49f7398fe/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/7a0b54e91566/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2639,6 +2882,15 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/eedf8c958f8a/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/487b061c9adc/b15ec2c7e695/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -2648,7 +2900,25 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/8bd0df6dae6e/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/487b061c9adc/19c8a6f2a1f0/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/5b5edb4036e4/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2675,16 +2945,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/5b5edb4036e4/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/bba46d845f38/</loc>
+    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/4a5e43cee04c/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2720,7 +2981,25 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/487b061c9adc/bba46d845f38/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/487b061c9adc/84dd4ae7dc85/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/29c69f9147e8/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2747,7 +3026,34 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/29c69f9147e8/</loc>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/34fac604aa36/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/4e7179e5fa08/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/45955d744f18/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/5e81adb537ed/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2765,6 +3071,15 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/0b5ab69de2f4/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/95b49bc3a254/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -2774,34 +3089,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/c52e626b1614/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/c48d403ecabc/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/7f8de9cdc303/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/3dcdad6e57e7/</loc>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/5ee2ea96e679/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2819,6 +3107,15 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/3dcdad6e57e7/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/5e8517637e3c/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -2828,7 +3125,79 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/ec68cd6f87e0/</loc>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/a06d8ec850ea/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/c52e626b1614/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/7f8de9cdc303/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/02ffeedf6bfb/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/43306ba4eb4b/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/c48d403ecabc/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/59432133a78c/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/bc8171ecece2/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/6a49015e2b11/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2855,6 +3224,24 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/8bdd223b2560/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/f6dde63d7a1b/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/b70211196f9d/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -2864,7 +3251,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/c57536df753f/</loc>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/164cd24e3ef2/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2873,7 +3260,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/164cd24e3ef2/</loc>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/c57536df753f/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2900,43 +3287,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/f77785f85bdf/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/1c11fc0ba04b/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/00bd2381f6f6/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/286741f16268/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/7a6325c83434/</loc>
+    <loc>https://ceobe33.github.io/project/posts/49f2e57bf32d/ec68cd6f87e0/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2954,6 +3305,15 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/e030d81a1c87/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/1bd3cf36cdd5/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -2963,7 +3323,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/e030d81a1c87/</loc>
+    <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/5cb461d513a7/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2990,7 +3350,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/5cb461d513a7/</loc>
+    <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/c5be80d42da0/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3000,15 +3360,6 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/dfb5e53596b1/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/c5be80d42da0/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3035,7 +3386,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/684f28abef7e/b083f8125637/</loc>
+    <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/f77785f85bdf/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3044,7 +3395,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/684f28abef7e/023917492529/</loc>
+    <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/1c11fc0ba04b/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3053,7 +3404,34 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/684f28abef7e/9045ca1e3d70/</loc>
+    <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/9e04371c148e/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/00bd2381f6f6/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/7a6325c83434/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/286741f16268/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3080,7 +3458,16 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/57df0d2d8092/9e04371c148e/</loc>
+    <loc>https://ceobe33.github.io/project/posts/684f28abef7e/cabfe74e85fa/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/684f28abef7e/3f03b075bd25/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3098,7 +3485,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/684f28abef7e/cabfe74e85fa/</loc>
+    <loc>https://ceobe33.github.io/project/posts/684f28abef7e/023917492529/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3107,7 +3494,16 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/684f28abef7e/3f03b075bd25/</loc>
+    <loc>https://ceobe33.github.io/project/posts/684f28abef7e/b083f8125637/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/684f28abef7e/9045ca1e3d70/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3170,7 +3566,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/684f28abef7e/2771571ab5b6/</loc>
+    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/dd0ffc5a9f27/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3179,7 +3575,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/dd0ffc5a9f27/</loc>
+    <loc>https://ceobe33.github.io/project/posts/684f28abef7e/2771571ab5b6/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3197,7 +3593,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/ed65172cfc5e/</loc>
+    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/6be943f74e92/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3215,15 +3611,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/6be943f74e92/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/5173d31099dd/8e55af71c8e7/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -3233,34 +3620,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/a85c90ba99ed/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/128b7482de71/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/35a9762a345e/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/b657992c90f3/</loc>
+    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/ed65172cfc5e/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3323,6 +3683,60 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/128b7482de71/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/a85c90ba99ed/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/35a9762a345e/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/b657992c90f3/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/736c3bfa82df/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/16235024ec04/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/5173d31099dd/b3b7b437ac10/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -3333,6 +3747,15 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/posts/5173d31099dd/9155e16e2556/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/07a1e275e98c/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3359,24 +3782,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/07a1e275e98c/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/447bc7fd9b2d/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/5173d31099dd/382aad4acd2d/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -3395,25 +3800,16 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/447bc7fd9b2d/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/5173d31099dd/ed58ad8d8125/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/736c3bfa82df/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/16235024ec04/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3458,7 +3854,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/2771571ab5b6/</loc>
+    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/163ef4cfbf53/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3467,7 +3863,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/163ef4cfbf53/</loc>
+    <loc>https://ceobe33.github.io/project/posts/5173d31099dd/2771571ab5b6/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3539,6 +3935,24 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/8409d5458652/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/a6ffcdca19ce/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/7081e7886a65/6ed8d09a49e4/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -3567,6 +3981,15 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/posts/7081e7886a65/fdf464f68437/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/d2b17a524d76/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3638,15 +4061,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/3dbc0f8b8d3d/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/7081e7886a65/79d333de398e/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -3656,61 +4070,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/8409d5458652/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/a6ffcdca19ce/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/57a79199857e/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/998d620a251d/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/6945bccf3329/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/bbd667cfb97b/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/ad083e09d197/</loc>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/3dbc0f8b8d3d/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3782,6 +4142,96 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/57a79199857e/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/998d620a251d/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/6945bccf3329/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/bbd667cfb97b/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/ad083e09d197/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/a880d22410b9/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/6e0d1c59722f/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/ccc13d73fb89/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/7887e95e2966/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/6046950a53e5/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/7081e7886a65/3c5e839e239f/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -3809,6 +4259,15 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/7ac5a7620945/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/7081e7886a65/0b12e44c25db/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -3818,7 +4277,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/7ac5a7620945/</loc>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/23e6b10f6f18/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3845,7 +4304,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/7887e95e2966/</loc>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/4ea3e65d776d/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3854,7 +4313,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/a880d22410b9/</loc>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/04ae1a9ffb2c/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3863,7 +4322,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/ccc13d73fb89/</loc>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/76767d3fbf72/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3872,16 +4331,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/6e0d1c59722f/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/6046950a53e5/</loc>
+    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/bca89a5f975f/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3935,15 +4385,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/c1072e974bd2/2380a6f297de/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/c1072e974bd2/2e4026980f70/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -3953,7 +4394,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/c1072e974bd2/a39180dbbf08/</loc>
+    <loc>https://ceobe33.github.io/project/posts/c1072e974bd2/2380a6f297de/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3962,7 +4403,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/7081e7886a65/bca89a5f975f/</loc>
+    <loc>https://ceobe33.github.io/project/posts/c1072e974bd2/a39180dbbf08/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -4151,15 +4592,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/c1072e974bd2/b466e66de536/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/c1072e974bd2/03941556593f/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -4187,7 +4619,61 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/c1072e974bd2/b466e66de536/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/ea5f43d675d9/65968aaa57d8/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/c1072e974bd2/83928b89436f/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/d3798dcbae5a/839ea1eb7e4b/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/d3798dcbae5a/d9de6da89dfa/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/ea5f43d675d9/4b843c5a3018/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/ea5f43d675d9/a11f569f813b/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -4295,15 +4781,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/ea5f43d675d9/a4014bfb5cf6/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/ea5f43d675d9/4c7795412af6/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -4313,43 +4790,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/ea5f43d675d9/65968aaa57d8/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/c1072e974bd2/83928b89436f/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/d3798dcbae5a/839ea1eb7e4b/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/d3798dcbae5a/d9de6da89dfa/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/ea5f43d675d9/a11f569f813b/</loc>
+    <loc>https://ceobe33.github.io/project/posts/ea5f43d675d9/a4014bfb5cf6/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -4359,15 +4800,6 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/posts/d3798dcbae5a/cf17db3e3364/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/d3798dcbae5a/a34270d9cdea/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -4386,6 +4818,15 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/posts/d3798dcbae5a/83d323ff1fea/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/d3798dcbae5a/a34270d9cdea/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -4457,6 +4898,15 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/d3798dcbae5a/284a84871301/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/ce0b8f09ee5f/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -4466,7 +4916,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/d3798dcbae5a/284a84871301/</loc>
+    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/e6680821cf98/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -4493,7 +4943,61 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/e6680821cf98/</loc>
+    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/b9984e226e02/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/6e984b9b5f4c/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/e11a5c003796/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/3c5ebf578555/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/466a08342e9b/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/b593d3879b78/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/f0a08105112a/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -4538,33 +5042,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/b9984e226e02/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/6e984b9b5f4c/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/e11a5c003796/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/6b1a4baa7663/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -4574,7 +5051,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/3c5ebf578555/</loc>
+    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/fbef7eb1d6b5/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -4583,7 +5060,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/466a08342e9b/</loc>
+    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/d8f79d3c1401/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -4592,7 +5069,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/b593d3879b78/</loc>
+    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/b4f67d52bff9/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -4601,7 +5078,34 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/f0a08105112a/</loc>
+    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/b45fe1c717dc/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/749ac4cfddeb/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/00b82d86d407/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/5e2de98d81f9/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -4682,7 +5186,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/37a7559bad63/</loc>
+    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/ed5f02c085c5/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -4691,7 +5195,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/ed5f02c085c5/</loc>
+    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/37a7559bad63/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -4709,15 +5213,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/29908f41a973/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/233bd568e055/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -4727,70 +5222,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/d8f79d3c1401/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/fbef7eb1d6b5/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/b4f67d52bff9/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/b45fe1c717dc/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/749ac4cfddeb/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/00b82d86d407/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/5e2de98d81f9/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/247701e5dc61/</loc>
+    <loc>https://ceobe33.github.io/project/posts/a14fa3bfe626/29908f41a973/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -4826,15 +5258,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/77f909df9536/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/aab6801d306a/c97c726e0d19/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -4844,7 +5267,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/196078332fff/</loc>
+    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/77f909df9536/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -4854,6 +5277,15 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/posts/aab6801d306a/f694f718a31e/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/196078332fff/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -4970,6 +5402,15 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/247701e5dc61/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/aab6801d306a/49991dca5a2f/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -5006,61 +5447,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/f7da48c6d175/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/eb87b143c00a/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/2f16d018b487/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/d72dfa1e4c1a/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/801e72d2dcd9/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/3193617e51e1/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/8c3f021e24ef/</loc>
+    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/c8237c9ad2da/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -5078,25 +5465,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/c8237c9ad2da/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/aab6801d306a/9bc1ddc7e861/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/6beb9f2b496e/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -5168,15 +5537,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/68059b0efa6d/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/aab6801d306a/6f5d388718c9/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -5187,6 +5547,15 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/posts/aab6801d306a/623ebd68f2ce/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/68059b0efa6d/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -5213,7 +5582,97 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/eb87b143c00a/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/f7da48c6d175/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/2f16d018b487/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/d72dfa1e4c1a/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/3193617e51e1/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/801e72d2dcd9/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/8c3f021e24ef/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/839e6dda1525/089ef872f8c5/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/aab6801d306a/6beb9f2b496e/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/839e6dda1525/d7c7a4764ba7/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/839e6dda1525/682cb6fa7658/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -5250,24 +5709,6 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/posts/839e6dda1525/8bfba4b23e49/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/839e6dda1525/d7c7a4764ba7/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/839e6dda1525/682cb6fa7658/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -5348,6 +5789,24 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/839e6dda1525/af9e2a4a9676/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/839e6dda1525/208b0364d729/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/1af0cd7cec21/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -5366,7 +5825,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/8aaf2c5758d8/</loc>
+    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/29c9e114e6ea/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -5375,7 +5834,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/29c9e114e6ea/</loc>
+    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/8aaf2c5758d8/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -5402,7 +5861,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/4ba69d173eee/</loc>
+    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/5c7c7cc8d688/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -5411,7 +5870,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/5c7c7cc8d688/</loc>
+    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/4ba69d173eee/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -5474,78 +5933,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/839e6dda1525/208b0364d729/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/839e6dda1525/af9e2a4a9676/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/18bd9ce3a746/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/7794d7de3b9d/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/d9389014e247/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/4926e20959ba/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/6aacaa42aad5/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/f1ec68f53d9f/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/68f7b23154d9/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -5564,7 +5951,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/ff81af7cc3d1/</loc>
+    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/c86e4261d608/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -5573,7 +5960,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/c86e4261d608/</loc>
+    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/ff81af7cc3d1/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -5645,6 +6032,24 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/93b791d388e7/3a0cebdc33ba/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/93b791d388e7/e13b71101f44/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/29e701d65250/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -5672,7 +6077,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/2c402b951746/</loc>
+    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/512d166378c3/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -5681,7 +6086,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/512d166378c3/</loc>
+    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/2c402b951746/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -5726,7 +6131,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/93b791d388e7/3a0cebdc33ba/</loc>
+    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/18bd9ce3a746/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -5735,7 +6140,52 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/93b791d388e7/e13b71101f44/</loc>
+    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/7794d7de3b9d/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/d9389014e247/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/4926e20959ba/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/6aacaa42aad5/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/13ac23193ea7/f1ec68f53d9f/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/93b791d388e7/7a3d8117e65f/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -5825,7 +6275,25 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/93b791d388e7/7a3d8117e65f/</loc>
+    <loc>https://ceobe33.github.io/project/posts/93b791d388e7/70eccc7ada35/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/a8b0d367b994/86fb118172dc/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/posts/a8b0d367b994/fd7cf4666ef7/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -5861,7 +6329,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/a8b0d367b994/83d6cc3bd52f/</loc>
+    <loc>https://ceobe33.github.io/project/posts/a8b0d367b994/84bec8960fc8/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -5870,7 +6338,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/a8b0d367b994/84bec8960fc8/</loc>
+    <loc>https://ceobe33.github.io/project/posts/a8b0d367b994/83d6cc3bd52f/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -5933,15 +6401,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/a8b0d367b994/1ff44f7f3079/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/a8b0d367b994/fffa25db63b3/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -5951,25 +6410,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/93b791d388e7/70eccc7ada35/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/a8b0d367b994/86fb118172dc/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/posts/a8b0d367b994/fd7cf4666ef7/</loc>
+    <loc>https://ceobe33.github.io/project/posts/a8b0d367b994/1ff44f7f3079/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -6023,15 +6464,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/a8b0d367b994/05e21990cdf3/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/posts/a8b0d367b994/a89fa8b0267a/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -6050,6 +6482,15 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/posts/a8b0d367b994/05e21990cdf3/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/posts/a8b0d367b994/512157241f75/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -6059,7 +6500,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/a8b0d367b994/dd373138b665/</loc>
+    <loc>https://ceobe33.github.io/project/posts/a8b0d367b994/097481e4b7bb/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -6068,7 +6509,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/posts/a8b0d367b994/097481e4b7bb/</loc>
+    <loc>https://ceobe33.github.io/project/posts/a8b0d367b994/dd373138b665/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -6217,14 +6658,21 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/tags/%E8%80%81%E7%A7%98%E4%B9%A6/</loc>
+    <loc>https://ceobe33.github.io/project/tags/Red/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/tags/Salary/</loc>
+    <loc>https://ceobe33.github.io/project/tags/Gathering/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/tags/%E8%80%81%E7%A7%98%E4%B9%A6/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -6238,7 +6686,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/tags/Red/</loc>
+    <loc>https://ceobe33.github.io/project/tags/Salary/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -6246,20 +6694,6 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/tags/%E5%96%B5%E5%96%B5/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/tags/Story/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/tags/Experience/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -6308,6 +6742,27 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/tags/WhichOneuWannaChoose/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/tags/Story/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/tags/Experience/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/tags/%E5%87%8C%E6%BA%A2%E5%AE%89/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -6330,34 +6785,6 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/tags/Lost/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/tags/Management/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/tags/%E5%A4%A7%E7%89%9B/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/tags/%E5%90%91%E4%B8%8A/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/tags/Eric/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -6392,7 +6819,84 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/tags/Management/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/tags/%E5%A4%A7%E7%89%9B/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/tags/%E5%90%91%E4%B8%8A/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/tags/Eric/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/tags/Anecdotes/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/tags/%E8%8B%B1%E4%B8%9A%E8%BE%BE/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/tags/The-real-McCoy/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/tags/Tripple-Question/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/tags/Interview/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/tags/Negotiation/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/tags/%E8%90%B1%E8%90%B1/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/tags/Ask15/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -6462,48 +6966,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/tags/Anecdotes/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/tags/Tripple-Question/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/tags/Interview/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/tags/Negotiation/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/tags/%E8%90%B1%E8%90%B1/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/tags/Ask15/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/tags/%E8%A1%8C/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -6519,13 +6981,6 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/tags/Voice/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/tags/Money/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -6553,13 +7008,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/tags/%E5%85%AB%E7%A5%9E/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/tags/Retire/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -6575,6 +7023,13 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/tags/%E7%89%9B%E7%89%9BPrice/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/tags/%E5%85%AB%E7%A5%9E/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -6623,6 +7078,27 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/tags/%E6%9D%8E%E5%88%9A/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/tags/%E5%A4%A7%E5%AE%87/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/tags/%E5%8F%B6%E5%AD%90%E5%90%9B/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/tags/%E5%B0%8FZ/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -6651,14 +7127,14 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/tags/Extrapolation/</loc>
+    <loc>https://ceobe33.github.io/project/tags/Stock/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/tags/Stock/</loc>
+    <loc>https://ceobe33.github.io/project/tags/Extrapolation/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -6707,14 +7183,14 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/tags/%E8%8F%9F%E5%AD%90/</loc>
+    <loc>https://ceobe33.github.io/project/tags/violet/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/tags/violet/</loc>
+    <loc>https://ceobe33.github.io/project/tags/%E8%8F%9F%E5%AD%90/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -6729,6 +7205,13 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/tags/Replay/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/tags/%E8%89%BE%E5%B0%94%E7%8E%8B/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -6805,7 +7288,21 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/tags/%E8%89%BE%E5%B0%94%E7%8E%8B/</loc>
+    <loc>https://ceobe33.github.io/project/tags/Nicole%E5%A6%AE%E5%8F%AF/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/tags/%E6%82%9F%E9%81%93/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/tags/Lesson/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -6875,28 +7372,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/tags/%E6%82%9F%E9%81%93/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/tags/Nicole%E5%A6%AE%E5%8F%AF/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/tags/Lesson/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/tags/Gathering/</loc>
+    <loc>https://ceobe33.github.io/project/tags/Money/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -6919,14 +7395,14 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/categories/01-%E5%AD%A6%E5%8E%86%E4%B8%8D%E9%87%8D%E8%A6%81%EF%BC%9F%E8%83%BD%E5%8A%9B%E6%9B%B4%E9%87%8D%E8%A6%81%EF%BC%9F/</loc>
+    <loc>https://ceobe33.github.io/project/categories/02-%E4%BB%80%E4%B9%88%E6%98%AF%E4%B8%AD%E5%9B%BD%E7%9A%84%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92%EF%BC%9F/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/categories/03-%E5%A6%82%E4%BD%95%E9%80%89%E5%9F%8E%E5%B8%82%EF%BC%9F/</loc>
+    <loc>https://ceobe33.github.io/project/categories/01-%E5%AD%A6%E5%8E%86%E4%B8%8D%E9%87%8D%E8%A6%81%EF%BC%9F%E8%83%BD%E5%8A%9B%E6%9B%B4%E9%87%8D%E8%A6%81%EF%BC%9F/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -6940,14 +7416,14 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/categories/05-%E5%A6%82%E4%BD%95%E9%80%89%E4%BC%81%E4%B8%9A%EF%BC%9F/</loc>
+    <loc>https://ceobe33.github.io/project/categories/03-%E5%A6%82%E4%BD%95%E9%80%89%E5%9F%8E%E5%B8%82%EF%BC%9F/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/categories/06-%E5%A6%82%E4%BD%95%E9%80%89%E8%81%8C%E5%8A%A1%EF%BC%9F/</loc>
+    <loc>https://ceobe33.github.io/project/categories/05-%E5%A6%82%E4%BD%95%E9%80%89%E4%BC%81%E4%B8%9A%EF%BC%9F/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -6969,6 +7445,13 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/categories/08-%E7%AE%80%E5%8E%86%E5%88%B6%E4%BD%9C%E7%A7%98%E7%AC%88/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/categories/06-%E5%A6%82%E4%BD%95%E9%80%89%E8%81%8C%E5%8A%A1%EF%BC%9F/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -6997,13 +7480,6 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/categories/13-%E8%83%8C%E6%99%AF%E8%B0%83%E6%9F%A5/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/categories/12-%E8%BE%9E%E8%81%8C%E7%A7%98%E7%AC%88/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -7059,6 +7535,13 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/categories/22-%E6%B1%BD%E8%BD%A6%E8%A1%8C%E4%B8%9A%E4%B8%93%E9%A2%98/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/categories/21-%E5%90%8C%E4%BA%8B%E5%A6%82%E4%BD%95%E7%9B%B8%E5%A4%84%EF%BC%9F/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -7067,13 +7550,6 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/categories/27-%E8%81%8C%E5%9C%BA%E7%94%9F%E6%B4%BB%E6%8A%80%E8%89%BA/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/categories/22-%E6%B1%BD%E8%BD%A6%E8%A1%8C%E4%B8%9A%E4%B8%93%E9%A2%98/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -7108,13 +7584,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/categories/27-%E8%81%8C%E5%9C%BA%E7%94%9F%E6%B4%BB%E6%8A%80%E8%89%BA/21-%E5%90%8C%E4%BA%8B%E5%A6%82%E4%BD%95%E7%9B%B8%E5%A4%84%EF%BC%9F/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/categories/28-%E5%AE%8F%E8%A7%82%E8%81%8C%E5%9C%BA/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -7129,7 +7598,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/categories/02-%E4%BB%80%E4%B9%88%E6%98%AF%E4%B8%AD%E5%9B%BD%E7%9A%84%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92%EF%BC%9F/</loc>
+    <loc>https://ceobe33.github.io/project/categories/12-%E8%BE%9E%E8%81%8C%E7%A7%98%E7%AC%88/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
