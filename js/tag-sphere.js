@@ -166,20 +166,26 @@
       ctx.globalAlpha = 1;
     }
 
-    /** Nearest tag under the pointer, or -1 */
-    function pick() {
-      if (!pointer.inside) return -1;
+    /** Nearest tag under a point in canvas space, or -1 */
+    function pickAt(x, y, slop) {
+      var pad = slop || 4;
 
       for (var i = hits.length - 1; i >= 0; i--) {
         var point = hits[i];
         if (
-          Math.abs(pointer.x - point.x) <= point.halfWidth + 4 &&
-          Math.abs(pointer.y - point.y) <= point.halfHeight + 4
+          Math.abs(x - point.x) <= point.halfWidth + pad &&
+          Math.abs(y - point.y) <= point.halfHeight + pad
         ) {
           return i;
         }
       }
       return -1;
+    }
+
+    /** Nearest tag under the pointer, or -1 */
+    function pick() {
+      if (!pointer.inside) return -1;
+      return pickAt(pointer.x, pointer.y);
     }
 
     function placeTip() {
@@ -275,6 +281,7 @@
 
     function onPointerUp(event) {
       var wasDragging = dragging;
+      var isTap = wasDragging && event.type === 'pointerup';
       dragging = false;
       root.classList.remove('is-dragging');
 
@@ -286,8 +293,17 @@
         }
       }
 
-      if (wasDragging && dragDistance < 6 && hoveredTag && hoveredTag.path) {
-        window.location.href = hoveredTag.path;
+      if (!isTap) return;
+
+      // 触摸点击不会触发 pointermove，hoveredTag 一直是空的，
+      // 所以这里必须用松手坐标重新命中一次。
+      var rect = root.getBoundingClientRect();
+      var slop = event.pointerType === 'touch' ? 12 : 6;
+      var index = pickAt(event.clientX - rect.left, event.clientY - rect.top, slop);
+      var tag = index >= 0 ? hits[index].item.tag : null;
+
+      if (tag && tag.path && dragDistance < slop * 2) {
+        window.location.href = tag.path;
       }
     }
 
